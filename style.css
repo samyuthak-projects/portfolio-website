@@ -38,3 +38,14 @@ header a:hover {
     background-color: #e1f0ff;
 }
 
+section {
+  padding: 40px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
