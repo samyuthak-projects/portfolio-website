@@ -1,51 +1,98 @@
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f5f7fb;
+  color:#333;
 }
 
-header {
-    padding: 50px 20px;
-    background-color: #4a90e2;
-    color: white;
+/* HEADER */
+
+header{
+  background:#111827;
+  color:white;
+  text-align:center;
+  padding:70px 20px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
+header h1{
+  font-size:42px;
+  margin-bottom:10px;
 }
 
-header p {
-    font-size: 1.2em;
-    margin: 10px 0;
+header p{
+  color:#d1d5db;
 }
 
-header a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: white;
-    color: #4a90e2;
-    text-decoration: none;
-    border-radius: 5px;
+header a{
+  display:inline-block;
+  margin-top:15px;
+  color:#60a5fa;
+  text-decoration:none;
+  font-weight:bold;
 }
 
-header a:hover {
-    background-color: #e1f0ff;
+/* SECTIONS */
+
+section{
+  max-width:900px;
+  margin:auto;
+  padding:50px 20px;
 }
 
-section {
-  padding: 40px;
+h2{
+  text-align:center;
+  margin-bottom:40px;
 }
 
-.project {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 600px;
-  border-radius: 8px;
+/* PROJECT CARDS */
+
+.project{
+  background:white;
+  padding:25px;
+  margin-bottom:25px;
+  border-radius:10px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.08);
+  transition:transform 0.2s ease;
+}
+
+.project:hover{
+  transform:translateY(-5px);
+}
+
+.project h3{
+  margin-top:0;
+}
+
+.project a{
+  color:#2563eb;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* BLOG */
+
+article{
+  background:white;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+nav{
+  background:white;
+  padding:15px;
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+nav a{
+  text-decoration:none;
+  color:#333;
+  font-weight:600;
+}
+
+nav a:hover{
+  color:#2563eb;
 }
