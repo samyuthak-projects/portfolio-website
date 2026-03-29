@@ -119,12 +119,27 @@ h2 {
 
 /* BLOG */
 
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
 article {
   background: white;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.08);
   margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-5px);
+}
+
+article h3 {
+  color: #111827;
 }
 
 /* SMOOTH SCROLL */
