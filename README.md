@@ -21,8 +21,11 @@ A cybersecurity-focused Python tool that:
 - Demonstrates hashing using **bcrypt**
 - Simulates brute-force attacks
 
-### Crypto Simulator *(In Progress)*
-A web application that simulates cryptocurrency investments and tracks portfolio performance over time.
+### Ledger
+A personal finance web app built with Flask that allows users to upload transaction data, automatically categorises spending, and provides insights with visualisations.
+
+### Relay *(In Progress)*
+A messaging app with user messaging system, basic encryption and client/server logic.
 
 ## Learning & Blog
 I document my learning process and key insights on my portfolio website, including:
